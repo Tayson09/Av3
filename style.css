@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #d8d8d8;
+    padding: 0 1.5rem;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.header-logo img {
+    width: 50px; 
+    border-radius: 50%;
+    margin-right: 1rem; 
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.header-menu ul li {
+    margin: 0;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-menu ul li a:hover {
+    background-color: #333;
+    color: white;
+}
+.home-section {
+    background-image: url(img5.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 52%;
+    width: 100%;
+    background-size: 75%;
+    height: 60vh;
+}
+
+.home-section h1 {
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+.home-buttons {
+    margin-top: 1.5%;
+}
+
+.home-buttons a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.home-buttons a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.product-section {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 15px;
+    padding: 0px 60px 0px 60px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    flex: 1 250px;
+    max-width: 400px;
+}
+
+.product-card {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    line-height: 2rem;
+}
+
+.product-card h1 {
+    font-size: 1.2rem;
+}
+
+.product-image img {
+    width: 90%;
+}
+
+.product-button {
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+}
+
+.product-button a {
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 100px 13px 100px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #333;
+}
+
+.product-button a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.testimonial-section {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 15px 60px 60px 60px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.testimonial-card {
+    flex: 1 250px;
+    max-width: 400px;
+    border: #333 1px solid;
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.testimonial-text p {
+    line-height: 1.6rem;
+}
+
+.testimonial-text h1 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.faq-section{
+    text-align: center;
+    margin-top: 4%;
+    padding: 30px;
+}
+
+.faq-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.faq-card {
+    width: 320px;
+    height: 180px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    background-color: #f8f8f8;
+    height: 10vh;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.contact-form input {
+    padding: 12px;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.contact-form .contact-message {
+    width: 60%;
+}
+
+.contact-form .contact-image img {
+    width: 60%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
